@@ -47,7 +47,7 @@ onMounted(() => {
 });
 </script>
 <template>
-    <nav class="w-full h-[60px] bg-navbar-bg flex justify-between items-center px-4 fixed">
+    <nav class="w-full h-[60px] bg-navbar-bg flex justify-between items-center px-4 fixed z-50">
         <div class="w-auto h-full flex justify-center items-center gap-3">
             <img :src="GhazaryanDev" alt="" class="w-full h-full object-cover object-center">
             <h1 class="text-xl text-nowrap text-orange-primary max-sm:text-base">{{ devName }}</h1>
