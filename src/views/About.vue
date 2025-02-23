@@ -14,7 +14,7 @@ const icons = [HTML, CSS, JS, Tailwind, GIT, GitHub, TypeScript, Vue]
     <div class="w-auto min-h-[400px] bg-transparent border-2 border-orange-border flex flex-wrap justify-center items-center p-5 rounded-md gap-32 max-lg:gap-12 mt-[60px] scroll-mt-[80px]"
         id="about">
         <p class="max-w-[360px] text-xl text-center font-semibold text-white-primary">
-            Hello, I’m Yuri, a Frontend Web Developer with 2+ years of experience.
+            Hello, I’m Yuri, a Frontend Web Developer with 6+ months of experience.
             I’d be happy if you contact me for work or if you need help with something.
             Have a nice day, my friend! 😉
         </p>
