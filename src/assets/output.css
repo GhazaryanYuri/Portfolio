@@ -566,10 +566,6 @@ video {
   z-index: 50;
 }
 
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-
 .mt-\[20px\] {
   margin-top: 20px;
 }
@@ -583,16 +579,8 @@ video {
   height: 1.5rem;
 }
 
-.h-\[260px\] {
-  height: 260px;
-}
-
 .h-\[50px\] {
   height: 50px;
-}
-
-.h-\[60px\] {
-  height: 60px;
 }
 
 .h-\[80px\] {
@@ -607,16 +595,12 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
+.max-h-\[260px\] {
+  max-height: 260px;
 }
 
 .max-h-\[95px\] {
   max-height: 95px;
-}
-
-.max-h-\[260px\] {
-  max-height: 260px;
 }
 
 .min-h-\[15px\] {
@@ -635,6 +619,10 @@ video {
   min-height: 450px;
 }
 
+.min-h-\[60px\] {
+  min-height: 60px;
+}
+
 .min-h-\[88vh\] {
   min-height: 88vh;
 }
@@ -647,8 +635,8 @@ video {
   min-height: 100vh;
 }
 
-.min-h-\[60px\] {
-  min-height: 60px;
+.min-h-\[350px\] {
+  min-height: 350px;
 }
 
 .w-\[170px\] {
@@ -691,24 +679,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scroll-mt-\[20px\] {
-  scroll-margin-top: 20px;
-}
-
 .scroll-mt-\[30px\] {
   scroll-margin-top: 30px;
 }
 
 .scroll-mt-\[90px\] {
   scroll-margin-top: 90px;
-}
-
-.scroll-mt-\[40px\] {
-  scroll-margin-top: 40px;
-}
-
-.scroll-mt-\[80px\] {
-  scroll-margin-top: 80px;
 }
 
 .flex-col {
@@ -896,6 +872,16 @@ video {
   padding-bottom: 2px;
 }
 
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-\[5px\] {
   padding-bottom: 5px;
 }
@@ -924,6 +910,11 @@ video {
   line-height: 1.5rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -932,11 +923,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-medium {
@@ -1029,13 +1015,9 @@ video {
     scroll-margin-top: 120px;
   }
 
-  .max-md\:justify-around {
-    justify-content: space-around;
-  }
-
-  .max-md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .max-md\:py-\[24px\] {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .max-md\:text-2xl {

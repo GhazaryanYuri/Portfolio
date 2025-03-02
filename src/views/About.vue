@@ -12,7 +12,7 @@ const icons = [HTML, CSS, JS, Tailwind, GIT, GitHub, TypeScript, Vue]
 </script>
 <template>
     <div class="w-full min-h-screen flex justify-center items-center scroll-mt-[30px] mt-[20px]" id="about">
-        <div class="w-auto min-h-[450px] bg-transparent border-2 border-orange-border flex flex-wrap justify-center items-center px-5 py-[24px] rounded-md gap-32 max-lg:gap-12 overflow-hidden"
+        <div class="w-auto min-h-[350px] bg-transparent border-2 border-orange-border flex flex-wrap justify-center items-center px-3 rounded-md gap-32 max-lg:gap-12 max-md:py-[24px] overflow-hidden"
             id="aboutBox">
             <p id="aboutContent" class="max-w-[360px] text-xl text-center font-semibold text-white-primary">
                 Hello, I’m Yuri, a Frontend Web Developer with 6+ months of experience.

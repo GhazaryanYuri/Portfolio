@@ -81,7 +81,7 @@ onMounted(() => {
 .project {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity .8s ease, transform .25s ease;
 }
 
 .project.visible {

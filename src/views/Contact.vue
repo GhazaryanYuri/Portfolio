@@ -65,7 +65,7 @@ onMounted(async () => {
 .contact-box {
     opacity: 0;
     transform: scale(0.8);
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity .8s ease-out, transform .4s ease-out;
 }
 
 .contact-box.visible {
