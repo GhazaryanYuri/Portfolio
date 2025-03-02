@@ -11,10 +11,10 @@ import Vue from '@/components/icons/vue.svg'
 const icons = [HTML, CSS, JS, Tailwind, GIT, GitHub, TypeScript, Vue]
 </script>
 <template>
-    <div class="w-full h-screen flex justify-center items-center scroll-mt-[20px]" id="about">
+    <div class="w-full min-h-screen flex justify-center items-center scroll-mt-[30px] mt-[20px]" id="about">
         <div class="w-auto min-h-[450px] bg-transparent border-2 border-orange-border flex flex-wrap justify-center items-center px-5 py-[24px] rounded-md gap-32 max-lg:gap-12 overflow-hidden"
             id="aboutBox">
-            <p id="aboutContent" class="max-w-[360px] text-2xl text-center font-semibold text-white-primary">
+            <p id="aboutContent" class="max-w-[360px] text-xl text-center font-semibold text-white-primary">
                 Hello, I’m Yuri, a Frontend Web Developer with 6+ months of experience.
                 I’d be happy if you contact me for work or if you need help with something.
                 Have a nice day, my friend! 😉
