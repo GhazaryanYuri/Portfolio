@@ -47,7 +47,7 @@ onMounted(() => {
 });
 </script>
 <template>
-    <nav class="w-full h-[60px] bg-navbar-bg flex justify-between items-center px-4 fixed z-50">
+    <nav class="w-full h-[80px] bg-navbar-bg flex justify-between items-center px-4 fixed z-50">
         <div class="w-auto h-full flex justify-center items-center gap-3">
             <img :src="GhazaryanDev" alt="" class="w-full h-full object-cover object-center">
             <h1 class="text-xl text-nowrap text-orange-primary max-sm:text-base">{{ devName }}</h1>
@@ -68,7 +68,7 @@ onMounted(() => {
                 <a @click="handleLinkClicked(index)" :href="link.url" :class="{
                     'text-orange-primary border-b-2': selectedIndex === index,
                     'text-white-letters hover:opacity-70': selectedIndex !== index,
-                }" class="sm:text-xl text-3xl border-orange-primary px-1 py-1 transition-all">
+                }" class="sm:text-2xl text-3xl border-orange-primary px-1 py-1 transition-all">
                     {{ link.text }}
                 </a>
             </li>
