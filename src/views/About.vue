@@ -6,9 +6,9 @@ import Tailwind from '@/components/icons/tailwindcss.svg'
 import GIT from '@/components/icons/git.svg'
 import GitHub from '@/components/icons/github.svg'
 import TypeScript from '@/components/icons/typescript.svg'
-import Vue from '@/components/icons/vue.svg'
+import React from '@/components/icons/react.svg'
 
-const icons = [HTML, CSS, JS, Tailwind, GIT, GitHub, TypeScript, Vue]
+const icons = [HTML, CSS, JS, Tailwind, GIT, GitHub, TypeScript, React]
 </script>
 <template>
     <div class="w-full min-h-screen flex justify-center items-center scroll-mt-[30px] mt-[20px]" id="about">
