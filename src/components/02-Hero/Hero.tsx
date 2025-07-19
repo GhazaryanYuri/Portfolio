@@ -88,7 +88,8 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center gap-2"
-              href="#"
+              href="Yuri_Ghazaryan_Personal_CV.pdf"
+              download="Yuri_Ghazaryan_Personal_CV.pdf"
             >
               <Download size={20} />
               Download CV

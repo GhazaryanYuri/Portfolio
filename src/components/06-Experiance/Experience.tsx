@@ -11,10 +11,10 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
+      title: "Frontend developer",
+      company: "Be Beauty Armenia",
+      location: "Yerevan, Armenia",
+      period: "2025 - Present",
       description:
         "Leading frontend development team, architecting scalable React applications, and mentoring junior developers.",
       achievements: [
