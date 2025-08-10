@@ -14,6 +14,7 @@ import TodoBg from "../../images/todo-bg.png";
 import RegiMBg from "../../images/regim-bg.avif";
 import SaaSBg from "../../images/SaaS-Landing-Page-bg.png";
 import CalculatorBg from "../../images/calculator-app-bg.png";
+import ECommerceBg from "../../images/e-commerece-bg.png";
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -32,6 +33,7 @@ const Projects = () => {
       tags: ["React", "Python3", "FastAPI", "AWS", "EC2", "S3"],
       github: "#",
       demo: "https://qrmenuarmenia.site/",
+      active: true,
     },
     {
       title: "Acme Rockets",
@@ -41,6 +43,7 @@ const Projects = () => {
       tags: ["HTML 5", "JavaScript", "Tailwind v3"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/tailwindcss-lesson-project/build/index.html",
+      active: true,
     },
     {
       title: "Tic Tac Toe",
@@ -50,6 +53,7 @@ const Projects = () => {
       tags: ["HTML 5", "CSS 3", "JavaScript"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/Tic-Tac-Toe/index.html",
+      active: true,
     },
     {
       title: "Ringku Financial Web App",
@@ -59,6 +63,7 @@ const Projects = () => {
       tags: ["HTML 5", "CSS 3", "JavaScript"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/ringku-website-project/index.html",
+      active: true,
     },
     {
       title: "Agency Landing Page",
@@ -68,6 +73,7 @@ const Projects = () => {
       tags: ["HTML 5", "Tailwind v4"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/agency-website/build/index.html",
+      active: true,
     },
     {
       title: "Todo App",
@@ -77,6 +83,7 @@ const Projects = () => {
       tags: ["HTML 5", "CSS 3", "JavaScript"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/todo-app/index.html",
+      active: true,
     },
     {
       title: "Random Jokes App",
@@ -86,6 +93,7 @@ const Projects = () => {
       tags: ["HTML 5", "CSS 3", "JavaScript", "Open Source API"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/randomJokes-app/index.html",
+      active: true,
     },
     {
       title: "RegiM Landing Page",
@@ -95,6 +103,7 @@ const Projects = () => {
       tags: ["Vue", "Tailwind v3"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/RegiM-Vue.JS/index.html",
+      active: true,
     },
     {
       title: "Traseve Travel Web App",
@@ -104,6 +113,7 @@ const Projects = () => {
       tags: ["React", "CSS 3"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/Traseve-Travel/",
+      active: true,
     },
     {
       title: "SaaS Landing Page",
@@ -113,6 +123,7 @@ const Projects = () => {
       tags: ["React", "CSS 3", "TypeScript"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/SaaS-Landing-Page/",
+      active: true,
     },
     {
       title: "Calculator App",
@@ -122,6 +133,17 @@ const Projects = () => {
       tags: ["HTML 5", "CSS 3", "JavaScript"],
       github: "#",
       demo: "https://ghazaryanyuri.github.io/calculator-app/",
+      active: true,
+    },
+    {
+      title: "E-Commerece Website",
+      description:
+        "E-Commerece website with modern design. This is not a realt E-Commerece website, this is only for practice.",
+      image: ECommerceBg,
+      tags: ["React", "React Router", "TypeScript"],
+      github: "#",
+      demo: "#",
+      active: false,
     },
   ];
 
@@ -218,6 +240,11 @@ const Projects = () => {
                           </span>
                         ))}
                       </div>
+                      {!project.active && (
+                        <div className="mt-4 p-4 text-white text-2xl font-bold tracking-wide">
+                          Coming Soon
+                        </div>
+                      )}
                     </div>
                   </motion.div>
                 </div>
