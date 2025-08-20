@@ -138,9 +138,9 @@ const Projects = () => {
     {
       title: "E-Commerece Website",
       description:
-        "E-Commerece website with modern design. This is not a realt E-Commerece website, this is only for practice.",
+        "E-Commerece website with modern design. This is not a real E-Commerece website, this is only for practice.",
       image: ECommerceBg,
-      tags: ["React", "React Router", "TypeScript"],
+      tags: ["React", "React Router", "TypeScript", "Tailwind CSS v4"],
       github: "#",
       demo: "#",
       active: false,
