@@ -17,28 +17,31 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         { name: "HTML 5", level: 95, color: "from-orange-600 to-orange-700" },
-        {
-          name: "CSS 3",
-          level: 85,
-          color: "from-blue-500 to-blue-600",
-        },
+        { name: "CSS 3", level: 85, color: "from-blue-500 to-blue-600" },
         {
           name: "JavaScript",
           level: 70,
-          color: "from-yellow-400 to-yellow-500",
+          color: "from-yellow-300 to-yellow-400",
         },
         { name: "Tailwind CSS", level: 92, color: "from-cyan-400 to-cyan-500" },
-        { name: "TypeScript", level: 70, color: "from-blue-400 to-blue-500" },
-        { name: "React", level: 65, color: "from-blue-500 to-blue-600" },
-        { name: "Vue", level: "15", color: "from-green-400 from-green-500" },
+        { name: "TypeScript", level: 70, color: "from-blue-500 to-blue-600" },
+        { name: "React", level: 65, color: "from-cyan-400 to-sky-500" },
+        { name: "Vue", level: 15, color: "from-green-400 to-emerald-600" },
+      ],
+    },
+    {
+      title: "Mobile Development",
+      skills: [
+        { name: "React Native", level: 15, color: "from-cyan-400 to-sky-600" },
+        { name: "Expo", level: 15, color: "from-sky-500 to-blue-700" },
       ],
     },
     {
       title: "Tools & Others",
       skills: [
         { name: "Git", level: 90, color: "from-orange-500 to-orange-600" },
-        { name: "GitHub", level: 85, color: "from-blue-500 to-blue-600" },
-        { name: "Figma", level: 88, color: "from-purple-400 to-purple-500" },
+        { name: "GitHub", level: 85, color: "from-gray-100 to-gray-300" },
+        { name: "Figma", level: 88, color: "from-purple-500 to-purple-600" },
       ],
     },
   ];
