@@ -35,6 +35,18 @@ const Experience = () => {
         "Got grate communication",
       ],
     },
+    {
+      title: "Frontent Web Developer Internship",
+      company: "Xpres.am",
+      location: "Yerevan, Armenia (Remote)",
+      period: "March, 2026 - Present",
+      description:
+        "My role in this company was Frontend Web development, so I will create and give clear code of UI/UX design mockups using modern framework based on React.JS. Worked with Next.JS.",
+      achievements: [
+        "Got more working experience.",
+        "Also got remote working experience.",
+      ],
+    },
   ];
 
   return (
