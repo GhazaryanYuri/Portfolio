@@ -69,7 +69,7 @@ const About = () => {
               Turning ideas into digital reality
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              With over 6+ month of experience in web development, I specialize
+              With over 1+ year of experience in web development, I specialize
               in creating modern, responsive, and user-friendly applications. My
               passion lies in combining clean code with beautiful design to
               deliver exceptional digital experiences.
