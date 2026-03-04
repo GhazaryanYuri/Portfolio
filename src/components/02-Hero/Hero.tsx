@@ -67,7 +67,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Frontend Web Developer.
+            Frontend Developer | UI Engineer | React.JS Developer
           </motion.p>
 
           <motion.div

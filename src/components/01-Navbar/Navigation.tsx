@@ -40,7 +40,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold text-white"
           >
-            Portfolio
+            Ghazaryan-Developer
           </motion.div>
 
           {/* Desktop Menu */}
@@ -71,7 +71,7 @@ const Navigation = () => {
             <motion.a
               whileHover={{ scale: 1.2, rotate: 360 }}
               transition={{ duration: 0.3 }}
-              href="#"
+              href="https://www.linkedin.com/in/yuri-ghazaryan-8044ab282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="text-gray-300 hover:text-white"
             >
               <Linkedin size={20} />

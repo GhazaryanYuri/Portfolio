@@ -76,7 +76,11 @@ const Contact = () => {
   // Social media links with icons and URLs
   const socialLinks = [
     { icon: Github, href: "https://github.com/GhazaryanYuri", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/yuri-ghazaryan-8044ab282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      label: "LinkedIn",
+    },
     {
       icon: Instagram,
       href: "https://www.instagram.com/ghazaryan.yuri?igsh=MTRkZzE0MG5qZjl1bw%3D%3D",
