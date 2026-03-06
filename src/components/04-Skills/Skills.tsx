@@ -42,6 +42,7 @@ const Skills = () => {
         { name: "Git", level: 90, color: "from-orange-500 to-orange-600" },
         { name: "GitHub", level: 85, color: "from-gray-100 to-gray-300" },
         { name: "Figma", level: 88, color: "from-purple-500 to-purple-600" },
+        { name: "Postman", level: 75, color: "from-orange-500 to-orange-600" },
       ],
     },
   ];
@@ -52,7 +53,7 @@ const Skills = () => {
 
   const prevSlide = () => {
     setCurrentSlide(
-      (prev) => (prev - 1 + skillCategories.length) % skillCategories.length
+      (prev) => (prev - 1 + skillCategories.length) % skillCategories.length,
     );
   };
 
