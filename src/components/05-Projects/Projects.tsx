@@ -14,7 +14,7 @@ import TodoBg from "../../images/todo-bg.png";
 import RegiMBg from "../../images/regim-bg.avif";
 import SaaSBg from "../../images/SaaS-Landing-Page-bg.png";
 import CalculatorBg from "../../images/calculator-app-bg.png";
-import ECommerceBg from "../../images/e-commerece-bg.png";
+import DigitalAgencyBg from "../../images/digital_agency_project_image.png";
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -136,11 +136,11 @@ const Projects = () => {
       active: true,
     },
     {
-      title: "E-Commerece Website",
+      title: "Brain I.T",
       description:
-        "E-Commerece website with modern design. This is not a real E-Commerece website, this is only for practice.",
-      image: ECommerceBg,
-      tags: ["React", "React Router", "TypeScript", "Tailwind CSS v4"],
+        "Scalable Landing Page for businessies, startups and etc. This landing is compairing both: landing and e-commerece websites type, so you can add anyy service and contact with customer ot build it.",
+      img: DigitalAgencyBg,
+      tags: ["React.JS", "TypeScript", "React Router"],
       github: "#",
       demo: "#",
       active: false,
